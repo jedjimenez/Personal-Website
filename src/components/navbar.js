@@ -15,6 +15,7 @@ const Styles = styled.div`
       color: #BDD5EA;
     }
   }
+  
 `;
 
 
