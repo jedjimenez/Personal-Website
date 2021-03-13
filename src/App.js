@@ -1,6 +1,6 @@
 import './App.css';
 import React, { Component } from "react";
-import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
+import { BrowserRouter as Router, Redirect, Route, Switch } from 'react-router-dom';
 //import { PageTransition } from '@steveeeie/react-page-transition';
 import NavBar  from './components/navbar.js';
 import Home  from './pages/home.js';
@@ -84,6 +84,7 @@ class App extends Component {
           return (
             <Switch location={location} key={location.pathname}>
             <Route exact path="/" component={Home} />
+            <Redirect to="/" component={Home}/>
             <Route path="/about" component={About} />
             <Route path="/projects" component={Projects} />
             <Route path="/contact" component={Contact} />
