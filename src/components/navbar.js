@@ -10,7 +10,7 @@ const Styles = styled.div`
     font-weight: 600;
   }
   a, .navbar-brand, .navbar-nav .nav-link {
-    color: #577399;
+    color: #4692DF;
     &:hover {
       color: #BDD5EA;
     }
@@ -26,13 +26,13 @@ class NavBar extends Component {
       <Navbar expand="lg">
         <Navbar.Brand href="/">
         <img 
-            src="https://upload.wikimedia.org/wikipedia/commons/9/99/Flag_of_the_Philippines.svg"
+            src="https://i.pinimg.com/originals/8e/de/53/8ede538fcf75a0a1bd812810edb50cb7.jpg"
             alt="flag"
             width="30"
             height="30"
             className="d-inline-block align-top"
             />{' '}
-        Jed Marc Jimenez
+        into the void
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
