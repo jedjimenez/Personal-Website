@@ -1,0 +1,1 @@
+{"version":3,"sources":["webpack://src/App.css"],"names":[],"mappings":"AAAA,gBAGE,WACF,CAEA,EACE,qBACF","file":"main.e910c2bd.chunk.css","sourcesContent":["html,\nbody,\n#root {\n  height: 100%;\n}\n\n*{\n  box-sizing: border-box;\n}\n"]}
