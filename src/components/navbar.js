@@ -6,7 +6,7 @@ import styled from 'styled-components';
 const Styles = styled.div`
   .navbar {
     background-color: #F7F7FF;
-    font-family: Roboto;
+    font-family: Karla;
     font-weight: 600;
   }
   a, .navbar-brand, .navbar-nav .nav-link {

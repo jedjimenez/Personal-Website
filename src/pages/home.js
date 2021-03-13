@@ -2,6 +2,7 @@ import React, { Component } from "react";
 //import { Col, Container, Jumbotron, Row } from "react-bootstrap";
 import styled from "styled-components";
 import Fade from 'react-reveal/Fade';
+import Zoom from 'react-reveal/Zoom';
 import Typical from 'react-typical';
 import Grad from '../images/grad.jpg';
 
@@ -60,10 +61,12 @@ class home extends Component{
         return (
             <>
             <Section>
-            <Container>    
+            <Container>  
+            <Zoom >
             <div>
                 <img src={Grad} alt='me' className='pic'/>
             </div>
+            </Zoom>  
             <div className='intro'>
                 <Fade big>
                     <h1><Typical loop={Infinity}
