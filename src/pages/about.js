@@ -98,7 +98,7 @@ class about extends Component{
                 </Fade>
                   <Zoom cascade>
                     <div>
-                      <p>hello, world! my name is jed. i'm an aspiring software developer based in southern california. i graduated <br/>from california state university,san marcos in may 2020.</p>
+                      <p>hello, world! my name is jed. i'm an aspiring software developer based in southern california. i graduated <br/>from california state university, san marcos in may 2020.</p>
                       <p>my passion for software development started when i had an opportunity to take a programming class <br/>back in high school. my first programming languages were C and Java. as a gamer and someone 
                       who is <br/>always on the computer, it fueled my interest in computer science. i have also built my own pc which i'm <br/>proud of and i'm always fascinated how each computer components communicate with each other.</p>
                       <p>my other hobby besides playing video games is working on my car. i have a 10th generation <br/>Honda Civic Si that is on full bolt-on. i learned to be mechanically inclined by modifying my car. 

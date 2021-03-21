@@ -22,12 +22,12 @@ const Container = styled.div`
     @media only screen and (max-width: 768px) {
      margin: 2.2rem 2rem;
      padding-top: 400px;
-     padding-right: 40px;
-     padding-left: 40px;
+     padding-right: 50px;
+     padding-left: 50px;
      padding-bottom: 50px;
 
      h1{
-        font-size: 1.45rem; margin-top: 0.5rem; margin-bottom: 0.5rem;
+        font-size: 1.45rem; margin-top: 0.5rem; margin-bottom: 0.5rem; margin-left: 0.5rem; margin-right: 0.5rem;
     }
 
 
