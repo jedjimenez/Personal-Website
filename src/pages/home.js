@@ -1,5 +1,4 @@
 import React, { Component } from "react";
-//import { Col, Container, Jumbotron, Row } from "react-bootstrap";
 import styled from "styled-components";
 import Fade from 'react-reveal/Fade';
 import Zoom from 'react-reveal/Zoom';
@@ -22,7 +21,7 @@ const Container = styled.div`
     margin-left: auto;
     padding-right: 50px;
     padding-left: 50px;
-    @media screen and (max-width: 991px) {
+    @media screen and (max-width: 768px) {
      padding-right: 30px;
      padding-left: 30px;
     }
@@ -46,7 +45,7 @@ const Container = styled.div`
         display: block;
         margin-left: auto;
         margin-right: auto;
-        height: 40vmin;
+        height: 55vmin;
         border-radius: 10%;
         margin-bottom: 40px;
         border: 0vh solid #F7F7FF;
