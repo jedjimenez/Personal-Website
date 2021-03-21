@@ -13,8 +13,8 @@ const Section = styled.section`
   align-items: center;
   background: #BDD5EA;
 
-  @media screen and (max-width: 768px){
-    height: 150vh;
+  @media only screen and (max-width: 768px){
+    height: 160vh;
   }
 `;
 
@@ -59,18 +59,31 @@ const Container = styled.div`
     
   }
    
-    @media screen and (max-width: 768px) {
-     padding-top: 50px;
-     padding-right: 100px;
+    @media only screen and (max-width: 768px) {
+     margin: 2.2rem 2rem;
+     padding-right: -1px;
      padding-left: 260px;
+     padding-top: 0px;
+     padding-bottom: 400px;
+     
+
+
+     h1 {
+      font-size: 1.45rem; margin-top: 0.5rem; margin-bottom: 0.5rem;
+     }
+     
+     p {
+      font-size: 1rem; text-align: left;
+     }
 
      img {
        max-width: 200px;
        max-height: 400px;
        bottom: -500px;
-       right: 200px;
+       right: 110px;
      }
 
+     .iframecontainer {width: 100%; float: none;}
     }
 `;
 

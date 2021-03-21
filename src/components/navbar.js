@@ -15,6 +15,11 @@ const Styles = styled.div`
       color: #BDD5EA;
     }
   }
+
+  @media only screen and (max-width: 768px) {
+
+    navbar {margin: 2.2rem 2rem}
+  }
   
 `;
 

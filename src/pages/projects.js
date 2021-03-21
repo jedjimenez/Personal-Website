@@ -19,7 +19,7 @@ const Container = styled.div`
     padding-right: 50px;
     padding-left: 50px;
 
-    @media screen and (max-width: 768px) {
+    @media only screen and (max-width: 768px) {
      padding-right: 40px;
      padding-left: 40px;
 
@@ -45,7 +45,7 @@ const StyledButton = styled(Button)`
     margin-left: 500px;
 
 
-    @media screen and (max-width: 768px) {
+    @media only screen and (max-width: 768px) {
         padding-right: 40px;
         padding-left: 40px;
         margin-left: 120px;
