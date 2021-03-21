@@ -82,8 +82,7 @@ const Container = styled.div`
        bottom: -500px;
        right: 110px;
      }
-
-     .iframecontainer {width: 100%; float: none;}
+     
     }
 `;
 

@@ -20,8 +20,15 @@ const Container = styled.div`
     padding-left: 50px;
 
     @media only screen and (max-width: 768px) {
+     margin: 2.2rem 2rem;
+     padding-top: 400px;
      padding-right: 40px;
      padding-left: 40px;
+     padding-bottom: 50px;
+
+     h1{
+        font-size: 1.45rem; margin-top: 0.5rem; margin-bottom: 0.5rem;
+    }
 
 
     }
@@ -48,7 +55,8 @@ const StyledButton = styled(Button)`
     @media only screen and (max-width: 768px) {
         padding-right: 40px;
         padding-left: 40px;
-        margin-left: 120px;
+        margin-left: 40px;
+        
         
    
        }

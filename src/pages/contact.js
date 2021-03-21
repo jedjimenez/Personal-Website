@@ -14,6 +14,9 @@ const Section = styled.section`
   align-items: center;
   background: #BDD5EA;
 
+  @media only screen and (max-width: 768px){
+    height: 115vh;
+  }
   }
 `;
 
@@ -32,7 +35,7 @@ const StyledButton = styled(Button)`
     @media only screen and (max-width: 768px) {
         padding-right: 40px;
         padding-left: 40px;
-        margin-left: 120px;
+        margin-left: 40px;
         
    
        }
@@ -48,8 +51,11 @@ const Container = styled.div`
     padding-left: 50px;
 
     @media only screen and (max-width: 768px) {
-     padding-right: 40px;
-     padding-left: 40px;
+        margin: 2.2rem 2rem;
+        padding-top: 100px;
+        padding-right: 40px;
+        padding-left: 40px;
+        padding-bottom: 50px
 
 
     }
@@ -69,11 +75,11 @@ const Container = styled.div`
         margin-bottom: 80px;
         
         @media only screen and (max-width: 768px) {
-            padding-right: 40px;
-            padding-left: 40px;
-            margin-left: 105px;
-            height: auto;
-            width: 200px;
+        padding-right: 40px;
+        padding-left: 40px;
+        margin-left: 40px;
+        height: auto;
+        width: 200px;
        
         }
     }
