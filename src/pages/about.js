@@ -79,7 +79,7 @@ const Container = styled.div`
      img {
        max-width: 200px;
        max-height: 400px;
-       bottom: -500px;
+       bottom: -550px;
        right: 110px;
      }
      
